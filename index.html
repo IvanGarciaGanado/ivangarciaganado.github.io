@@ -1,105 +1,165 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Iván García</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>Iván García</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background:; }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; left: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100%; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
 </head>
 
 <body>
+
     <table id="menu">
-        <tr>
-            <td>
-            <a href="#Formación">Formación Académica</a>
-            </td>
-            <td>
-            <a href="#Experiencia">Experiencia Profesional</a>
-            </td>
-            <td>
-            <a href="#Habilidades">Habilidades y conocimientos</a>
-            </td>
-            <td>
-            <a href="#Perfiles">Perfiles sociales</a>
-            </td>
-            <td>
-            <a href="#Contacto">Contacto</a>
-            </td>
-        </tr>
+            <tr>
+                <td>
+                <a href="#Formación">Formación Académica</a>
+                </td>
+                <td>
+                <a href="#Experiencia">Experiencia Profesional</a>
+                </td>
+                <td>
+                <a href="#Habilidades">Habilidades y Conocimientos</a>
+                </td>
+                <td>
+                <a href="#Perfiles">Perfiles Sociales</a>
+                </td>
+                <td>
+                <a href="#Contacto">Contacto</a>
+                </td>
+            </tr>
     </table>
-    <hr>
-    <h1>Iván García Ganado</h1>
-    <p>Mi descripcion</p>
 
-    <img id="Foto-Perfil" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/0ae/1fb/3c2a5cf.jpg" alt="Foto de Iván">
+    <div id="page-wrap">
+    
+        <img src="images/ivan_garcia.jpg" alt="ivan_garcia.jpg" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <h1 class="fn">Iván García Ganado</h1>
+        
+            <p>
+                Teléfono: <span class="tel">692 229 947</span><br />
+                Email: <a class="email" href="mailto:ivangarciaganado@gmail.com">ivangarciaganado@gmail.com</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                MI DESCRIPCION
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt><p id="Formación" > Formación Académica</p></dt>
+                <dd>
+                    <h2><strong>Master GIS (2015-2016).</strong></h2>
+                        ESRI España (Madrid).
+                    <h2><strong>Ingeniero Técnico en Topografía (2008-2013).</strong></h2>
+                        Escuela Politécnica Superior de Ávila (Universidad de Salamanca).
+                </dd>
+            
+     
 
-    <hr>
-    <h2><a id="Formación" > Formación Académica</a></h2>
-    <ul>
-        <li><strong>Master GIS (2015-2016).</strong><br>
-            ESRI España (Madrid).
-        <li><strong>Ingeniero Técnico en Topografía (2008-2013).</strong><br>
-            Escuela Politécnica Superior de Ávila (Universidad de Salamanca).
-    </ul>
-    <h3><a id="OtrosCursos"> Otra formación de interes </a></h3>
-    <ul>
-        <li>Curso de experto en Sistemas de Información Geográfica, especialidad Agroforestal (2014).</li>
-        <li>Experto en Dibujo Técnico con AutoCad (2015).</li>
-    </ul>
+            <dd class="clear"></dd>
 
+            <dt><p> Otra<br> Formación </p></dt>
+            <dd>
+                <p>
+                Curso de experto en Sistemas de Información Geográfica, especialidad Agroforestal (2014).<br>
+                Curso de experto en Dibujo Técnico con AutoCad (2015).
+                </p>
+            </dd>
 
-    <hr>
-    <h2><a id="Experiencia">Experiencia profesional</a></h2>
-    <ul>
-        <li><strong>Technical Support Analyst</strong><br>
-            Esri España<br>
-            Abril de 2016 - Julio de 2016<br>
-            Prácticas de empresa como Analista técnico de soporte.</li>
-        <li><strong>Ingeniero Técnico en Topografía</strong><br>
-            Néstor Topografía<br>
-            Marzo de 2014 – Abril de 2014.<br>
-            Nivelación geométrica de bases en el tramo de línea de alta velocidad de Perilla de Castro a Otero de Bodas en la provincia de Zamora.</li>
-        <li><strong>Ingeniero Técnico en Topografía</strong><br>
-            Néstor Topografía<br>
-            Julio de 2013 – Noviembre de 2013.<br>
-            Asistencia Técnica de la línea de AVE Madrid – Galicia. Subtramo: Otero de Bodas – Cernadilla en la provincia de Zamora.</li>
-    </ul>
+            <dd class="clear"></dd>
+            
+            <dt> <p id="Experiencia"> Experiencia Profesional</p></dt>
+            <dd>
+                <h2>Technical Support Analyst</h2><br>
+                <h2><span> Esri España - Madrid - Abril de 2016 - Julio de 2016</span></h2>
+                <ul>
+                    <li>Prácticas de empresa como Analista técnico de soporte.</li>
+                    <li>Atención a clientes.</li>
+                    <li>Resolución de incidencias.</li>
+                </ul>
+                
+                <h2>Ingeniero Técnico en Topografía</h2><br> 
+                <h2><span>Néstor Topografía - Zamora - Marzo de 2014 – Abril de 2014</span></h2>
+                <ul>
+                    <li>Nivelación geométrica de bases en el tramo de línea de alta velocidad de Perilla de Castro a Otero de Bodas en la provincia de Zamora.</li>
+                    <li>Trabajos topográficos de campo y gabinete.</li>
+                </ul> 
 
-    <hr>
-    <h2><a id="Habilidades">Habilidades y conocimientos</a></h2>
-    <ul>
-        <li>Idiomas: Inglés - Nivel Alto. (Actualmente preparando C1).</li>
-        <li>Software ArcGIS: ArcMAP, ArcGIS PRO, Arcgis for Server, ArcgIS Online...</li>
-        <li>AutoCAD.</li>
-        <li>Photshop.</li>
-        <li>Microsoft Office: Word, Excel, PowerPoint...</li>
-        <li>Microsoft Dynamics CRM.</li>
-        <li>Github.</li>
-        <li>Lenguajes de programación conocidos: JavaScript, Python y HTML5.</li>
-        <li>Habilidad para trabajar en equipo.</li>
-        <li>Capacidad para resolver problemas.</li>
-        <li>Capacidad para labores de investigación.</li>
-        <li>Análisis de datos.</li>
-        <li>Adaptabilidad.</li>
-    </ul>
+                <h2>Ingeniero Técnico en Topografía</h2><br> 
+                <h2><span>Néstor Topografía - Zamora - Julio de 2013 – Noviembre de 2013.</span></h2>
+                <ul>
+                    <li>Asistencia Técnica de la línea de AVE Madrid – Galicia. Subtramo: Otero de Bodas – Cernadilla en la provincia de Zamora.</li>
+                    <li>Trabajos topográficos de campo y gabinete.</li>
+                </ul> 
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt><p id="Habilidades"> Habilidades y Conocimientos</p></dt>
+            <dd>
+                <ul>
+                    <li>Idiomas: Inglés - Nivel Alto. (Actualmente preparando C1).</li>
+                    <li>Software ArcGIS: ArcMAP, ArcGIS PRO, Arcgis for Server, ArcgIS Online...</li>
+                    <li>AutoCAD.</li>
+                    <li>Photshop.</li>
+                    <li>Microsoft Office: Word, Excel, PowerPoint...</li>
+                    <li>Microsoft Dynamics CRM.</li>
+                    <li>Github.</li>
+                    <li>Lenguajes de programación conocidos: JavaScript, Python y HTML5.</li>
+                    <li>Habilidad para trabajar en equipo.</li>
+                    <li>Capacidad para resolver problemas.</li>
+                    <li>Capacidad para labores de investigación.</li>
+                    <li>Análisis de datos.</li>
+                    <li>Adaptabilidad.</li>
+                </ul>
+            </dd>
+            
+            <dd class="clear"></dd>
 
-    <hr>
-    <h2><a id="Perfiles">Perfiles sociales</a></h2>
-    <ul>
-        <li> <a href="https://es.linkedin.com/in/ivan-garcia">LinkedIn</a></li>
-        <li> <a href="https://twitter.com/IvanGargan">Twitter</a></li>
-        <li> <a href="https://github.com/IvanGargan">GitHub</a></li>
-    </ul>
-
-    <hr>
-    <h2><a id="Contacto">Contacto</a></h2>
-        <li><strong>Email:</strong> ivangarciaganado@gmail.com</li>
-        <li><strong>Teléfono:</strong> 692229947</li>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+            <dt>Hobbies</dt>
+            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>References</dt>
+            <dd>Available on request</dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
 
 </body>
+
+</html>
